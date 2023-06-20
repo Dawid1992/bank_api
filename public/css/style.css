@@ -1,0 +1,66 @@
+ h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    line-height: 1
+}
+
+ a {
+    text-decoration: none;
+}
+
+ button {
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+}
+
+ .p_textL {
+    text-align: left
+}
+
+ .p_textC {
+    text-align: center
+}
+
+ .p_textR {
+    text-align: right
+}
+
+ .c_semibold {
+    font-weight: 600
+}
+
+ .c_bold {
+    font-weight: bold
+}
+
+ .c_uppercase {
+    text-transform: uppercase
+}
+
+ .c_page {
+    width: 100%;
+    max-width: 1430px;
+    padding: 0 15px;
+    margin: 0 auto
+}
+.c_row, .c_form_box {
+    margin: 10px 0;
+}
+.btn {
+    display: inline-block;
+    background-color: #85af38;
+    color: #000000;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
