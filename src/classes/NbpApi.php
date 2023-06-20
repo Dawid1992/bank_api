@@ -6,7 +6,7 @@ class NbpApi
 {
     private const URL = "http://api.nbp.pl/api";
     
-    public function getApiData(string $tableName = "A", string $date = "today"): string|bool
+    public function getApiData(string $tableName = "A", string $date = "today")
     {
         $tableName = htmlspecialchars($tableName, ENT_QUOTES, 'UTF-8');
         $date = htmlspecialchars($date, ENT_QUOTES, 'UTF-8');
