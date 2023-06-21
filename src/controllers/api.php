@@ -102,11 +102,7 @@
         echo $msg;
     }
 
-
-
     $data = getCurrentData("today");
-    // var_dump($data);die;
     createCurrenciesList($db,$data);
     saveDataToDatabase($db,$data);
-    
 ?>

@@ -18,6 +18,7 @@ class Validation
 
     function validateNumeric($value)
     {
+        // Validation for numreric fiel
         if (is_numeric($value) && floatval($value) > 0){
             return true;
         }
@@ -28,6 +29,7 @@ class Validation
 
     function validateSameCurrency($source, $target)
     {
+        // validation for the same currency error
         if ($source !== $target){
             return true;
         }

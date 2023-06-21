@@ -10,5 +10,4 @@ class Converter
         return number_format($convertedAmount, 5, ',', '');
     }
 }
-
 ?>
