@@ -57,10 +57,14 @@ body {
 }
 .btn {
     display: inline-block;
-    background-color: #85af38;
+    background-color: #ffffff;
+    border: 1px solid #000000;
     color: #000000;
     text-align: center;
     padding: 10px 5px;
     margin: 5px;
     border-radius: 5px;
+}
+td,th {
+ padding: 10px;border:1px solid #000
 }
